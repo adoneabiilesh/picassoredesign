@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: [
+      'lh3.googleusercontent.com',
+      'lh5.googleusercontent.com',
+    ],
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,

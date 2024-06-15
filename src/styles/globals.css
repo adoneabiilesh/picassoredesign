@@ -4,6 +4,20 @@
 
 @layer base {
   html {
-    @apply text-white;
+    @apply text-[#EADEAF];
+    background:black;
+
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
