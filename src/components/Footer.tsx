@@ -13,7 +13,6 @@ const Footer = () => {
           <div className='mt-10 px-5 w-screen overflow-hidden dets underline grid grid-cols-1 gap-12 xl:grid-cols-3'>
             <a href="https://www.facebook.com/Picasso8108/">Facebook</a>
             <a href="https://www.instagram.com/picassosicurezza2.0/">Instagram</a>
-            <a href="">Twitter</a>
             <a href="https://www.google.com/maps/dir//picasso+sicurezza/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x132f5fd60d0fb059:0xf00bc5d07211bbe4?sa=X&ved=1t:3061&ictx=111">Location</a>
             <a href="">picassoantincendio@outlook.it</a>
           </div>
