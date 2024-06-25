@@ -15,13 +15,13 @@ const aboutus = () => {
           <h1 className='text-9xl mb-5'>Chi Siamo</h1>
           <div className='w-full flex flex-row gap-10 items-start'>
           <p className=' text-xl mb-5'>
-            <a href="/contact" className=''>sapere di noi, per saperne di più</a>
+            <Link href="/contact" className=''>sapere di noi, per saperne di più</Link>
           </p>
           <p className='text-xl mb-5'>
-            <a href="/contact" className=''>azienda</a>
+            <Link href="/contact" className=''>azienda</Link>
           </p>
           <p className=' text-xl mb-5'>
-            <a href="/contact" className=''>e per te</a>
+            <Link href="/contact" className=''>e per te</Link>
           </p>
           </div>
           <p className=' text-3xl  text-start'>
