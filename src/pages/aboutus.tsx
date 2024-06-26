@@ -3,13 +3,14 @@ import React from 'react'
 import Image from 'next/image'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import Link from 'next/link'
 
 
 const aboutus = () => {
   return (
 <div className='w-full min-h-screen bg-red-800'>
       <Header />
-      <div className='w-full flex flex-colitems-start p-10'>
+      <div className='w-full flex flex-col items-start p-10'>
         <div className='relative w-full flex flex-col items-start p-10 mt-10'>
           
           <h1 className='text-9xl mb-5'>Chi Siamo</h1>
@@ -29,7 +30,7 @@ const aboutus = () => {
           </p>
           
         </div>
-        <div className='w-full flex flex-col  mt-10'>
+        <div className='w-full mt-10'>
           <Image
             className='rounded-xl'
             src={'/team/bggif.gif'}
